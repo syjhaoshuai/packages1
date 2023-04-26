@@ -1,0 +1,45 @@
+.cby-3dcore{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease;
+}
+.cby-3dcore-canvas{
+  width: 100%;
+  height: 100%;
+  transition: all .3s ease;
+}
+.cby-3dcore-ctexture-wrap{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+.cby-3dcore-ctexture-wrap.test{
+  opacity: 0.5;
+}
+
+.cby-3dcore-ctexture-wrap .canvas-container{
+  display: block;
+}
+.cby-3dcore-ctexture-wrap .canvas-container.disabled{
+  display: none;
+}
+
+@font-face {
+  font-family: 'proximanova-bold';
+  src: url('/fonts/proximanova-bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proximanova-medium';
+  src: url('/fonts/proximanova-medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
